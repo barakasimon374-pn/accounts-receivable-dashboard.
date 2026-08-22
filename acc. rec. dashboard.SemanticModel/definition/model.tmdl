@@ -1,0 +1,25 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-KE
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["customers","invoices","payments"]
+
+annotation PBI_ProTooling = ["WebModelingEdit","DevMode"]
+
+ref table customers
+ref table invoices
+ref table DateTableTemplate_73491fa3-f70a-411f-99d7-427ba7da2263
+ref table LocalDateTable_cd8ef452-3b35-41d4-8383-8a28956c6e85
+ref table LocalDateTable_45defdf3-6a4d-4966-ae4e-f4f77627e071
+ref table payments
+ref table LocalDateTable_5109ab38-059e-4963-bdd8-00f6c6f9e07b
+
+ref cultureInfo en-US
+

@@ -1,0 +1,102 @@
+table customers
+	lineageTag: a5dae8b3-8e2f-4787-8ccf-d66ad6e28c1f
+
+	measure Measure
+		lineageTag: acef43ef-7ead-4a06-84d8-d4f1b37e3849
+
+		annotation 43dbc3e8-3a1c-4b6f-9923-b49ff7d6691c = True
+
+	measure 'Total Paid' = SUM(payments[PaymentAmount (KSh)])
+		formatString: 0
+		lineageTag: 236c0901-4a20-4895-bb76-4a06dd1566f7
+
+	column CustomerID
+		dataType: string
+		lineageTag: 4507bdda-97c9-472b-8595-d30ee9a0ca87
+		summarizeBy: none
+		sourceColumn: CustomerID
+
+		annotation SummarizationSetBy = Automatic
+
+	column CustomerName
+		dataType: string
+		lineageTag: b30dc584-a014-4e78-96eb-9356afe9355e
+		summarizeBy: none
+		sourceColumn: CustomerName
+
+		annotation SummarizationSetBy = Automatic
+
+	column CustomerType
+		dataType: string
+		lineageTag: 5cc81df7-f6cd-4d59-b5dc-af3d439539e3
+		summarizeBy: none
+		sourceColumn: CustomerType
+
+		annotation SummarizationSetBy = Automatic
+
+	column City
+		dataType: string
+		lineageTag: ceb1048e-56a1-45b8-b117-c2acd9530b0b
+		summarizeBy: none
+		sourceColumn: City
+
+		annotation SummarizationSetBy = Automatic
+
+	column County
+		dataType: string
+		lineageTag: dc9e7e2e-71ef-440b-ac80-1a4475309744
+		summarizeBy: none
+		sourceColumn: County
+
+		annotation SummarizationSetBy = Automatic
+
+	column ContactPerson
+		dataType: string
+		lineageTag: b0a6f3ad-124f-426a-be84-e27722c10d3f
+		summarizeBy: none
+		sourceColumn: ContactPerson
+
+		annotation SummarizationSetBy = Automatic
+
+	column Email
+		dataType: string
+		lineageTag: 74e8da33-1083-4dbc-a096-5f71774487ff
+		summarizeBy: none
+		sourceColumn: Email
+
+		annotation SummarizationSetBy = Automatic
+
+	column Phone
+		dataType: string
+		lineageTag: b63ec9e9-985c-43ba-a5f7-e1a87e9a2b75
+		summarizeBy: none
+		sourceColumn: Phone
+
+		annotation SummarizationSetBy = Automatic
+
+	column Status
+		dataType: string
+		lineageTag: 57438f7b-ead5-41ab-9cd2-110c055d5483
+		summarizeBy: none
+		sourceColumn: Status
+
+		annotation SummarizationSetBy = Automatic
+
+	partition customers = m
+		mode: import
+		source =
+				let
+				  Source = Excel.Workbook(File.Contents("C:\Users\user\OneDrive\Documents\Sim\Power BI Desktop\Custom Connectors\accounts_receivable_portfolio_dataset.xlsx"), null, true),
+				  #"Navigation 1" = Source{[Item = "customers", Kind = "Sheet"]}[Data],
+				  #"Changed column type" = Table.TransformColumnTypes(#"Navigation 1", {{"Column1", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type text}, {"Column5", type text}, {"Column6", type text}, {"Column7", type text}, {"Column8", type text}, {"Column9", type text}}, "en-US"),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Changed column type", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"CustomerID", type text}, {"CustomerName", type text}, {"CustomerType", type text}, {"City", type text}, {"County", type text}, {"ContactPerson", type text}, {"Email", type text}, {"Phone", type text}, {"Status", type text}})
+				in
+				  #"Changed Type"
+
+	changedProperty = Name
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

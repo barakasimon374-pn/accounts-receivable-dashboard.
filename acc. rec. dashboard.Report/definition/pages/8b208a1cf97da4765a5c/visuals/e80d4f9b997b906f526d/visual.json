@@ -1,0 +1,150 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "e80d4f9b997b906f526d",
+  "position": {
+    "x": 9.06372934697089,
+    "y": 824.79937057435086,
+    "z": 6,
+    "height": 255.29504327301336,
+    "width": 453.18646734854445,
+    "tabOrder": 6
+  },
+  "visual": {
+    "visualType": "donutChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "payments"
+                    }
+                  },
+                  "Property": "PaymentMethod"
+                }
+              },
+              "queryRef": "payments.PaymentMethod",
+              "nativeQueryRef": "PaymentMethod",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "payments"
+                        }
+                      },
+                      "Property": "PaymentAmount (KSh)"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(payments.PaymentAmount (KSh))",
+              "nativeQueryRef": "Sum of PaymentAmount (KSh)"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "payments"
+                      }
+                    },
+                    "Property": "PaymentAmount (KSh)"
+                  }
+                },
+                "Function": 0
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Payments by Method'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "ae8d1c87c7a0352f7395",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "payments"
+              }
+            },
+            "Property": "PaymentMethod"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "742304585a40186dbb64",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "payments"
+                  }
+                },
+                "Property": "PaymentAmount (KSh)"
+              }
+            },
+            "Function": 0
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

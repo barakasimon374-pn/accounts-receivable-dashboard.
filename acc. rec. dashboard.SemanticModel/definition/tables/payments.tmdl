@@ -1,0 +1,80 @@
+table payments
+	lineageTag: 8cf3c1f1-9263-4895-9e50-9f1259839905
+
+	column PaymentID
+		dataType: string
+		lineageTag: d3292eb8-c970-4607-9b7d-a370d4ff4ab2
+		summarizeBy: none
+		sourceColumn: PaymentID
+
+		annotation SummarizationSetBy = Automatic
+
+	column InvoiceID
+		dataType: string
+		lineageTag: c8adfae7-49f3-4677-a600-fad3df2f6aea
+		summarizeBy: none
+		sourceColumn: InvoiceID
+
+		annotation SummarizationSetBy = Automatic
+
+	column PaymentDate
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: dccb88a0-6b6f-42e5-a73a-5e29b04b9129
+		summarizeBy: none
+		sourceColumn: PaymentDate
+
+		variation Variation
+			isDefault
+			relationship: 74b972bf-f081-48a5-a9cc-d62703a438fd
+			defaultHierarchy: LocalDateTable_5109ab38-059e-4963-bdd8-00f6c6f9e07b.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'PaymentAmount (KSh)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 0affaeb1-5c3b-49f1-ba09-6282e4a9b476
+		summarizeBy: sum
+		sourceColumn: PaymentAmount (KSh)
+
+		annotation SummarizationSetBy = Automatic
+
+	column PaymentMethod
+		dataType: string
+		lineageTag: fdf41f31-0826-4fc3-841d-843eb05cd246
+		summarizeBy: none
+		sourceColumn: PaymentMethod
+
+		annotation SummarizationSetBy = Automatic
+
+	column ReferenceNo
+		dataType: string
+		lineageTag: a09720eb-2d98-4ec6-a088-17fc0aa007d9
+		summarizeBy: none
+		sourceColumn: ReferenceNo
+
+		annotation SummarizationSetBy = Automatic
+
+	partition payments = m
+		mode: import
+		source =
+				let
+				  Source = Excel.Workbook(File.Contents("C:\Users\user\OneDrive\Documents\Sim\Power BI Desktop\Custom Connectors\accounts_receivable_portfolio_dataset.xlsx"), null, true),
+				  #"Navigation 1" = Source{[Item = "payments", Kind = "Sheet"]}[Data],
+				  #"Promoted headers" = Table.PromoteHeaders(#"Navigation 1", [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"PaymentID", type text}, {"InvoiceID", type text}, {"PaymentDate", Int64.Type}, {"PaymentAmount (KSh)", type text}, {"PaymentMethod", type text}, {"ReferenceNo", type text}}, "en-US"),
+				    #"Replaced Value" = Table.ReplaceValue(#"Changed column type","KSh ","",Replacer.ReplaceText,{"PaymentAmount (KSh)"}),
+				    #"Replaced Value1" = Table.ReplaceValue(#"Replaced Value",",","",Replacer.ReplaceText,{"PaymentAmount (KSh)"}),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Replaced Value1",{{"PaymentAmount (KSh)", Int64.Type}, {"PaymentDate", type date}})
+				in
+				  #"Changed Type"
+
+	changedProperty = Name
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

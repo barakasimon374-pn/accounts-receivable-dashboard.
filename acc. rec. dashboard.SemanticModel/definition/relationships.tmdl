@@ -1,0 +1,23 @@
+relationship a1530d43-3c14-4e38-893b-677244afd80b
+	joinOnDateBehavior: datePartOnly
+	fromColumn: invoices.InvoiceDate
+	toColumn: LocalDateTable_cd8ef452-3b35-41d4-8383-8a28956c6e85.Date
+
+relationship 3a670eb4-8655-4b53-ae14-d924032af644
+	joinOnDateBehavior: datePartOnly
+	fromColumn: invoices.DueDate
+	toColumn: LocalDateTable_45defdf3-6a4d-4966-ae4e-f4f77627e071.Date
+
+relationship 74b972bf-f081-48a5-a9cc-d62703a438fd
+	joinOnDateBehavior: datePartOnly
+	fromColumn: payments.PaymentDate
+	toColumn: LocalDateTable_5109ab38-059e-4963-bdd8-00f6c6f9e07b.Date
+
+relationship AutoDetected_b08d724e-a38a-4bad-9dc6-75e294f51c2f
+	fromColumn: payments.InvoiceID
+	toColumn: invoices.InvoiceID
+
+relationship AutoDetected_9f95ad6f-adad-4950-b95f-0f6d44b6f7fd
+	fromColumn: invoices.CustomerID
+	toColumn: customers.CustomerID
+

@@ -1,0 +1,135 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "46f65f66a37cc968b6a3",
+  "position": {
+    "x": 0,
+    "y": 486.42014162077106,
+    "z": 4,
+    "height": 338.37922895357985,
+    "width": 555.90873328088117,
+    "tabOrder": 4
+  },
+  "visual": {
+    "visualType": "lineChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "invoices"
+                    }
+                  },
+                  "Property": "InvoiceDate"
+                }
+              },
+              "queryRef": "invoices.InvoiceDate",
+              "nativeQueryRef": "InvoiceDate",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "invoices"
+                    }
+                  },
+                  "Property": "Total Invoiced"
+                }
+              },
+              "queryRef": "invoices.Total Invoiced",
+              "nativeQueryRef": "Total Invoiced"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "invoices"
+                  }
+                },
+                "Property": "InvoiceDate"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Invoice Trend'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "d50ed9c7e70ba38d24fd",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "invoices"
+              }
+            },
+            "Property": "Total Invoiced"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "c6a7012e13f982f6d7f9",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "invoices"
+              }
+            },
+            "Property": "InvoiceDate"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}

@@ -1,0 +1,191 @@
+table invoices
+	lineageTag: 42adcbf4-1994-48b8-8dc0-7976cd72dbfa
+
+	measure 'Total Invoiced' =
+			
+			SUM('invoices'[InvoiceAmount (KSh)])
+		formatString: 0
+		lineageTag: 7a70481a-33f2-4eea-aa01-567594e68d68
+
+	measure 'Total Payments Received' =
+			
+			SUM('payments'[PaymentAmount (KSh)])
+		formatString: 0
+		lineageTag: 3d584cc4-bcbf-4a70-92e5-cfbd5952ef98
+
+	measure 'Outstanding Receivables' =
+			
+			[Total Invoiced] - [Total Payments Received]
+		formatString: 0
+		lineageTag: d70139f1-43a4-4888-b84f-1338f0dfac6c
+
+	measure 'Collection Rate' =
+			
+			DIVIDE([Total Payments Received], [Total Invoiced], 0)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 997e2b8e-18b3-4f7e-9974-2236166a84d4
+
+	column InvoiceID
+		dataType: string
+		lineageTag: f8fcf55c-261b-4b9d-99b5-beb26e49539a
+		summarizeBy: none
+		sourceColumn: InvoiceID
+
+		annotation SummarizationSetBy = Automatic
+
+	column CustomerID
+		dataType: string
+		lineageTag: c1ffca68-25ce-4c5e-b749-b6f65375ede8
+		summarizeBy: none
+		sourceColumn: CustomerID
+
+		annotation SummarizationSetBy = Automatic
+
+	column InvoiceDate
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 43ea20a4-dcae-4b82-ba13-1c7eab307737
+		summarizeBy: none
+		sourceColumn: InvoiceDate
+
+		variation Variation
+			isDefault
+			relationship: a1530d43-3c14-4e38-893b-677244afd80b
+			defaultHierarchy: LocalDateTable_cd8ef452-3b35-41d4-8383-8a28956c6e85.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column DueDate
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: 41ea49e1-16f4-4158-8178-b03c5b1d91aa
+		summarizeBy: none
+		sourceColumn: DueDate
+
+		variation Variation
+			isDefault
+			relationship: 3a670eb4-8655-4b53-ae14-d924032af644
+			defaultHierarchy: LocalDateTable_45defdf3-6a4d-4966-ae4e-f4f77627e071.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'InvoiceAmount (KSh)'
+		dataType: int64
+		formatString: "Ksh"#,0;-"Ksh"#,0;"Ksh"#,0
+		lineageTag: 9805caa9-a957-479c-b6d5-d8c1ac3fdbe7
+		summarizeBy: none
+		sourceColumn: InvoiceAmount (KSh)
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-KE"}
+
+	column Description
+		dataType: string
+		lineageTag: 1b86c5da-5166-446d-be59-6446717b9aba
+		summarizeBy: none
+		sourceColumn: Description
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'PaymentsReceived (KSh)'
+		dataType: string
+		lineageTag: 55840421-f160-412e-b418-b31eae557932
+		summarizeBy: none
+		sourceColumn: PaymentsReceived (KSh)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'OutstandingBalance (KSh)'
+		dataType: string
+		lineageTag: f7c5d879-bc54-4a9c-8450-65e430246106
+		summarizeBy: none
+		sourceColumn: OutstandingBalance (KSh)
+
+		annotation SummarizationSetBy = Automatic
+
+	column PaymentStatus
+		dataType: string
+		lineageTag: 6d6da57e-5a7a-4625-b0a9-ba5ad3989693
+		summarizeBy: none
+		sourceColumn: PaymentStatus
+
+		annotation SummarizationSetBy = Automatic
+
+	column DaysPastDue
+		dataType: int64
+		formatString: 0
+		lineageTag: bdb0b0bc-e6ba-4e07-bb55-ef9bd5d5dfa4
+		summarizeBy: sum
+		sourceColumn: DaysPastDue
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Days Past Due' =
+			
+			MAX(0, TODAY() - 'invoices'[DueDate])
+		lineageTag: 2ea2d51c-3221-4a60-97a8-3f0f857ed380
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Aging Bucket' =
+			
+			SWITCH(
+			    TRUE(),
+			    'invoices'[Days Past Due] = 0, "Current",
+			    'invoices'[Days Past Due] <= 30, "1-30 Days",
+			    'invoices'[Days Past Due] <= 60, "31-60 Days",
+			    'invoices'[Days Past Due] <= 90, "61-90 Days",
+			    "90+ Days"
+			)
+		lineageTag: 55879958-9141-4655-8952-21507f5a3e00
+		summarizeBy: none
+		sortByColumn: 'Aging Bucket Sort'
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Aging Bucket Sort' =
+			
+			SWITCH(
+			    TRUE(),
+			    'invoices'[Days Past Due] = 0, 0,
+			    'invoices'[Days Past Due] <= 30, 1,
+			    'invoices'[Days Past Due] <= 60, 2,
+			    'invoices'[Days Past Due] <= 90, 3,
+			    4
+			)
+		formatString: 0
+		lineageTag: 322fb04e-e4e1-4abf-8147-ce73c39ce2be
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	partition invoices = m
+		mode: import
+		source =
+				let
+				  Source = Excel.Workbook(File.Contents("C:\Users\user\OneDrive\Documents\Sim\Power BI Desktop\Custom Connectors\accounts_receivable_portfolio_dataset.xlsx"), null, true),
+				  #"Navigation 1" = Source{[Item = "invoices ", Kind = "Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Navigation 1", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"InvoiceID", type text}, {"CustomerID", type text}, {"InvoiceDate", Int64.Type}, {"DueDate", Int64.Type}, {"InvoiceAmount (KSh)", type text}, {"Description", type text}, {"PaymentsReceived (KSh)", type text}, {"OutstandingBalance (KSh)", type text}, {"PaymentStatus", type text}, {"DaysPastDue", Int64.Type}}),
+				    #"Replaced Value" = Table.ReplaceValue(#"Changed Type","KSh ","",Replacer.ReplaceText,{"InvoiceAmount (KSh)"}),
+				    #"Replaced Value1" = Table.ReplaceValue(#"Replaced Value",",","",Replacer.ReplaceText,{"InvoiceAmount (KSh)"}),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Replaced Value1",{{"InvoiceAmount (KSh)", Int64.Type}, {"InvoiceDate", type date}, {"DueDate", type date}})
+				in
+				    #"Changed Type1"
+
+	changedProperty = Name
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

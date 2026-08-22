@@ -1,0 +1,74 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "54f91e0042a9800e89e2",
+  "position": {
+    "x": 0,
+    "y": 294.30332922318127,
+    "z": 0,
+    "height": 191.7632552404439,
+    "width": 279.65474722564738,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "invoices"
+                    }
+                  },
+                  "Property": "Total Invoiced"
+                }
+              },
+              "queryRef": "invoices.Total Invoiced",
+              "nativeQueryRef": "Total Invoiced"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "invoices"
+                  }
+                },
+                "Property": "Total Invoiced"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "1bcc4eceaecad32c7e1c",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "invoices"
+              }
+            },
+            "Property": "Total Invoiced"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

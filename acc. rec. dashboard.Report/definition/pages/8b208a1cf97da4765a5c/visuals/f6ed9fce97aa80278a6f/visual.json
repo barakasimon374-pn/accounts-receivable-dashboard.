@@ -1,0 +1,117 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "f6ed9fce97aa80278a6f",
+  "position": {
+    "x": 462.25019669551534,
+    "y": 824.79937057435086,
+    "z": 7,
+    "height": 255.29504327301336,
+    "width": 598.20613690007872,
+    "tabOrder": 7
+  },
+  "visual": {
+    "visualType": "clusteredColumnChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "invoices"
+                    }
+                  },
+                  "Property": "Aging Bucket"
+                }
+              },
+              "queryRef": "invoices.Aging Bucket",
+              "nativeQueryRef": "Aging Bucket",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "invoices"
+                    }
+                  },
+                  "Property": "Outstanding Receivables"
+                }
+              },
+              "queryRef": "invoices.Outstanding Receivables",
+              "nativeQueryRef": "Outstanding Receivables"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Outstanding Receivables by Aging'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "14dd8558fc0418eaa426",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "invoices"
+              }
+            },
+            "Property": "Aging Bucket"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "5bfd4cd52b25ae313f58",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "invoices"
+              }
+            },
+            "Property": "Outstanding Receivables"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

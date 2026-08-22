@@ -1,0 +1,74 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "35cc7be4ac9ea053adb0",
+  "position": {
+    "x": 279.65474722564738,
+    "y": 294.30332922318127,
+    "z": 1,
+    "height": 202.41676942046857,
+    "width": 279.65474722564738,
+    "tabOrder": 1
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "invoices"
+                    }
+                  },
+                  "Property": "Total Payments Received"
+                }
+              },
+              "queryRef": "invoices.Total Payments Received",
+              "nativeQueryRef": "Total Payments Received"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "invoices"
+                  }
+                },
+                "Property": "Total Payments Received"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "b0301693e8712d1b0bb7",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "invoices"
+              }
+            },
+            "Property": "Total Payments Received"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

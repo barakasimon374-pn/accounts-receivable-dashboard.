@@ -1,0 +1,25 @@
+# Power BI Desktop temporary files and local settings
+*.pbix
+*.pbit
+*.tmp
+*.log
+*.bak
+
+# Local Power BI workspace and user settings
+.pbi/
+**/.pbi/
+
+# Data exports and source files that may contain sensitive customer data
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.xls
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Keep the Power BI Project (.pbip), report, and semantic model tracked.
+!*.pbip

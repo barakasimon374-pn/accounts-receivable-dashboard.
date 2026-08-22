@@ -1,0 +1,82 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "be445aecd254d7c0c442",
+  "position": {
+    "x": 279.65474722564738,
+    "y": 54.599260172626387,
+    "z": 10,
+    "height": 239.70406905055489,
+    "width": 234.37731196054256,
+    "tabOrder": 10
+  },
+  "visual": {
+    "visualType": "listSlicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "invoices"
+                    }
+                  },
+                  "Property": "InvoiceDate"
+                }
+              },
+              "queryRef": "invoices.InvoiceDate",
+              "nativeQueryRef": "InvoiceDate",
+              "active": true
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "invoices"
+                  }
+                },
+                "Property": "InvoiceDate"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "general": [
+        {
+          "properties": {}
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "f3d4b2cea8b5d0287c56",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "invoices"
+              }
+            },
+            "Property": "InvoiceDate"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}

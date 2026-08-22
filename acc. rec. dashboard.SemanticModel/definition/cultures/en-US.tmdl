@@ -1,0 +1,5673 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "customers_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "customers"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "customers (2)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "customer (2)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "customers_2.customer_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "customers",
+			          "ConceptualProperty": "CustomerID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "customer ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CustomerID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "customer identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "client id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "consumer id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "user id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "buyer id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "patron id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "purchaser id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "customers_2.customer_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "customers",
+			          "ConceptualProperty": "CustomerName"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "customer name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CustomerName": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "customer nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "customer title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "customer label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "customer tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "customer surname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "client name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "consumer name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "user name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "buyer name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "patron name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "customers_2.customer_type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "customers",
+			          "ConceptualProperty": "CustomerType"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "customer type": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CustomerType": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "type": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "customer category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "customer brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "customer class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "customers_2.city": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "customers",
+			          "ConceptualProperty": "City"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "city": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "metropolis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "municipality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "town": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "metropolitan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "customers_2.county": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "customers",
+			          "ConceptualProperty": "County"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "county": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "shire": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "canton": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "customers_2.contact_person": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "customers",
+			          "ConceptualProperty": "ContactPerson"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "contact person": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ContactPerson": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "person": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "connection person": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "interaction person": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "phone person": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "telephone person": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "communication person": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "e-mail person": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "link person": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "reach person": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "contact creature": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "creature": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "customers_2.email": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "customers",
+			          "ConceptualProperty": "Email"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "email": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "correspondence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "message": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "communication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "customers_2.phone": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "customers",
+			          "ConceptualProperty": "Phone"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "phone": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "handset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "receiver": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "headset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "telephone": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mobile": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "customers_2.status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "customers",
+			          "ConceptualProperty": "Status"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "level": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "position": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "invoices_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "invoices (2)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "invoice (2)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "invoices_2.invoice_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "ConceptualProperty": "InvoiceID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "invoice ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "InvoiceID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "invoice identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "invoice identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "invoice identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "invoice credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "invoices_2.customer_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "ConceptualProperty": "CustomerID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "customer ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CustomerID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "customer identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "client id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "consumer id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "user id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "buyer id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "patron id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "purchaser id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "invoices_2.invoice_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "ConceptualProperty": "InvoiceDate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "invoice date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "InvoiceDate": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "invoice moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "invoice period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "invoices_2.invoice_date.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "VariationSource": "InvoiceDate",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "invoice date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "invoices_2.invoice_date.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "VariationSource": "InvoiceDate",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "invoice year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "invoice date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "invoice date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "invoice yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "invoice moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "invoice period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "invoices_2.invoice_date.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "VariationSource": "InvoiceDate",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "invoice quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "invoice date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date quarter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "invoice date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "invoice qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "invoice moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "invoice period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "invoices_2.invoice_date.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "VariationSource": "InvoiceDate",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "invoice month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "invoice date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "invoice date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "invoice mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "invoice moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "invoice period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "invoices_2.invoice_date.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "VariationSource": "InvoiceDate",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "invoice day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "invoice date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "invoice moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "invoice period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "invoices_2.due_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "ConceptualProperty": "DueDate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "due date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DueDate": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "due moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "due period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "invoices_2.due_date.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "VariationSource": "DueDate",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "due date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "invoices_2.due_date.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "VariationSource": "DueDate",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "due year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "due date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "due moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "due date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "due yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "due period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "invoices_2.due_date.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "VariationSource": "DueDate",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "due quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "due date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date quarter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "due date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "due qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "due moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "due period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "invoices_2.due_date.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "VariationSource": "DueDate",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "due month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "due date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "due moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "due date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "due mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "due period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "invoices_2.due_date.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "VariationSource": "DueDate",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "due day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "due date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "due moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "due period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "invoices_2.InvoiceAmount_KSh": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "ConceptualProperty": "InvoiceAmount (KSh)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "InvoiceAmount (KSh)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "InvoiceAmount": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "invoices_2.description": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "ConceptualProperty": "Description"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "description": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "appearance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "descriptor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "specification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "account": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "overview": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "report": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "invoices_2.PaymentsReceived_KSh": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "ConceptualProperty": "PaymentsReceived (KSh)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "PaymentsReceived (KSh)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PaymentsReceived": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "invoices_2.OutstandingBalance_KSh": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "ConceptualProperty": "OutstandingBalance (KSh)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "OutstandingBalance (KSh)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "OutstandingBalance": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "invoices_2.payment_status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "ConceptualProperty": "PaymentStatus"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "payment status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PaymentStatus": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "payment category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "payment importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "payment prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "payment prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "payment condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "payment class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "payment grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "payment level": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "payment position": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "payment rank": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "invoices_2.day_past_due": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "ConceptualProperty": "DaysPastDue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day past due": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DaysPastDue": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "due": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "past due": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "owing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "payable": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "history due": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.451
+			          }
+			        },
+			        {
+			          "antiquity due": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.451
+			          }
+			        }
+			      ]
+			    },
+			    "invoices_2.day_past_due1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "ConceptualProperty": "Days Past Due"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day past due": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "due": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "past due": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "owing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "payable": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "history due": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.451
+			          }
+			        },
+			        {
+			          "antiquity due": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.451
+			          }
+			        }
+			      ]
+			    },
+			    "invoices_2.aging_bucket": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "ConceptualProperty": "Aging Bucket"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "aging bucket": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "bucket": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aging pail": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "aging container": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "aging vessel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "pail": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "container": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "vessel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "invoices_2.aging_bucket_sort": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "ConceptualProperty": "Aging Bucket Sort"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "aging bucket sort": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "bucket sort": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aging bucket category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "aging bucket genus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "aging bucket species": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "aging bucket variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "aging bucket nature": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "bucket category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "bucket genus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "bucket species": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "bucket variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "bucket nature": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "invoices_2.total_invoiced": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "ConceptualProperty": "Total Invoiced"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total invoiced": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate invoiced": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "overall invoiced": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "invoices_2.total_payments_received": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "ConceptualProperty": "Total Payments Received"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total payments received": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate payment received": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall payment received": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "total expenditure received": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "total disbursement received": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "total expense received": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total cost received": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total outgoing received": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total outflow received": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total overhead received": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total outlay received": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "invoices_2.outstanding_receivables": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "ConceptualProperty": "Outstanding Receivables"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "outstanding receivables": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "receivables": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "invoices_2.collection_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "invoices",
+			          "ConceptualProperty": "Collection Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "collection rate": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rate": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "collection degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "collection frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "collection percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "collection ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "collection quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "collection amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "payments_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "payments"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "payments (2)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "payment (2)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "payments_2.payment_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "payments",
+			          "ConceptualProperty": "PaymentID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "payment ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PaymentID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "payment identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "payment identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "payment identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "payment credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "payments_2.invoice_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "payments",
+			          "ConceptualProperty": "InvoiceID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "invoice ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "InvoiceID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "invoice identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "invoice identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "invoice identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "invoice credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "payments_2.payment_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "payments",
+			          "ConceptualProperty": "PaymentDate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "payment date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PaymentDate": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "payment moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "payment period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "payments_2.payment_date.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "payments",
+			          "VariationSource": "PaymentDate",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "payment date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "payments_2.payment_date.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "payments",
+			          "VariationSource": "PaymentDate",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "payment year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "payment date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "payment date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "payment yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "payment moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "payment period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "payments_2.payment_date.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "payments",
+			          "VariationSource": "PaymentDate",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "payment quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "payment date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date quarter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "payment date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "payment qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "payment moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "payment period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "payments_2.payment_date.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "payments",
+			          "VariationSource": "PaymentDate",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "payment month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "payment date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "payment date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "payment mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "payment moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "payment period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "payments_2.payment_date.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "payments",
+			          "VariationSource": "PaymentDate",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "payment day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "payment date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "payment moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "payment period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "payments_2.PaymentAmount_KSh": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "payments",
+			          "ConceptualProperty": "PaymentAmount (KSh)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "PaymentAmount (KSh)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PaymentAmount": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "payments_2.payment_method": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "payments",
+			          "ConceptualProperty": "PaymentMethod"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "payment method": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PaymentMethod": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "method": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "payment technique": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "payment system": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "payment manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "payment mode": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "technique": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "system": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "mode": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "payment way": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "payment process": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "payments_2.reference_no": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "payments",
+			          "ConceptualProperty": "ReferenceNo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "reference no": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ReferenceNo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "reference number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "payments_2_payment_date_date_hierarchy_has_payments_2_payment_date_month": {
+			      "Binding": {
+			        "ConceptualEntity": "payments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "payments_2.payment_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "payments_2.payment_date.date_hierarchy"
+			          }
+			        },
+			        "payments_2.payment_date.month": {
+			          "Target": {
+			            "Entity": "payments_2.payment_date.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "payments_2.payment_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "payments_2.payment_date.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "payment_date_hierarchies_have_payment_months"
+			        }
+			      ]
+			    },
+			    "payments_2_payment_date_date_hierarchy_has_payments_2_payment_date_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "payments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "payments_2.payment_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "payments_2.payment_date.date_hierarchy"
+			          }
+			        },
+			        "payments_2.payment_date.quarter": {
+			          "Target": {
+			            "Entity": "payments_2.payment_date.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "payments_2.payment_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "payments_2.payment_date.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "payment_date_hierarchies_have_payment_quarters"
+			        }
+			      ]
+			    },
+			    "payments_2_payment_date_date_hierarchy_has_payments_2_payment_date_year": {
+			      "Binding": {
+			        "ConceptualEntity": "payments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "payments_2.payment_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "payments_2.payment_date.date_hierarchy"
+			          }
+			        },
+			        "payments_2.payment_date.year": {
+			          "Target": {
+			            "Entity": "payments_2.payment_date.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "payments_2.payment_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "payments_2.payment_date.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "payment_date_hierarchies_have_payment_years"
+			        }
+			      ]
+			    },
+			    "payments_2_payment_date_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "payments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "payments_2.payment_date": {
+			          "Target": {
+			            "Entity": "payments_2.payment_date"
+			          }
+			        },
+			        "payments_2.payment_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "payments_2.payment_date.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "payments_2.payment_date"
+			            },
+			            "Object": {
+			              "Role": "payments_2.payment_date.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "payment_dates_have_payment_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "invoices_2_due_date_date_hierarchy_has_invoices_2_due_date_day": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2.due_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "invoices_2.due_date.date_hierarchy"
+			          }
+			        },
+			        "invoices_2.due_date.day": {
+			          "Target": {
+			            "Entity": "invoices_2.due_date.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2.due_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.due_date.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "due_date_hierarchy_have_due_day"
+			        }
+			      ]
+			    },
+			    "invoices_2_due_date_date_hierarchy_has_invoices_2_due_date_month": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2.due_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "invoices_2.due_date.date_hierarchy"
+			          }
+			        },
+			        "invoices_2.due_date.month": {
+			          "Target": {
+			            "Entity": "invoices_2.due_date.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2.due_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.due_date.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "due_date_hierarchy_have_due_month"
+			        }
+			      ]
+			    },
+			    "invoices_2_due_date_date_hierarchy_has_invoices_2_due_date_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2.due_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "invoices_2.due_date.date_hierarchy"
+			          }
+			        },
+			        "invoices_2.due_date.quarter": {
+			          "Target": {
+			            "Entity": "invoices_2.due_date.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2.due_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.due_date.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "due_date_hierarchy_have_due_quarter"
+			        }
+			      ]
+			    },
+			    "invoices_2_due_date_date_hierarchy_has_invoices_2_due_date_year": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2.due_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "invoices_2.due_date.date_hierarchy"
+			          }
+			        },
+			        "invoices_2.due_date.year": {
+			          "Target": {
+			            "Entity": "invoices_2.due_date.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2.due_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.due_date.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "due_date_hierarchy_have_due_year"
+			        }
+			      ]
+			    },
+			    "invoices_2_due_date_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2.due_date": {
+			          "Target": {
+			            "Entity": "invoices_2.due_date"
+			          }
+			        },
+			        "invoices_2.due_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "invoices_2.due_date.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2.due_date"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.due_date.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "due_date_have_due_date_hierarchy"
+			        }
+			      ]
+			    },
+			    "invoices_2_invoice_date_date_hierarchy_has_invoices_2_invoice_date_day": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2.invoice_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "invoices_2.invoice_date.date_hierarchy"
+			          }
+			        },
+			        "invoices_2.invoice_date.day": {
+			          "Target": {
+			            "Entity": "invoices_2.invoice_date.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2.invoice_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.invoice_date.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "invoice_date_hierarchies_have_invoice_days"
+			        }
+			      ]
+			    },
+			    "invoices_2_invoice_date_date_hierarchy_has_invoices_2_invoice_date_month": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2.invoice_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "invoices_2.invoice_date.date_hierarchy"
+			          }
+			        },
+			        "invoices_2.invoice_date.month": {
+			          "Target": {
+			            "Entity": "invoices_2.invoice_date.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2.invoice_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.invoice_date.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "invoice_date_hierarchies_have_invoice_months"
+			        }
+			      ]
+			    },
+			    "invoices_2_invoice_date_date_hierarchy_has_invoices_2_invoice_date_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2.invoice_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "invoices_2.invoice_date.date_hierarchy"
+			          }
+			        },
+			        "invoices_2.invoice_date.quarter": {
+			          "Target": {
+			            "Entity": "invoices_2.invoice_date.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2.invoice_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.invoice_date.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "invoice_date_hierarchies_have_invoice_quarters"
+			        }
+			      ]
+			    },
+			    "invoices_2_invoice_date_date_hierarchy_has_invoices_2_invoice_date_year": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2.invoice_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "invoices_2.invoice_date.date_hierarchy"
+			          }
+			        },
+			        "invoices_2.invoice_date.year": {
+			          "Target": {
+			            "Entity": "invoices_2.invoice_date.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2.invoice_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.invoice_date.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "invoice_date_hierarchies_have_invoice_years"
+			        }
+			      ]
+			    },
+			    "invoices_2_invoice_date_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2.invoice_date": {
+			          "Target": {
+			            "Entity": "invoices_2.invoice_date"
+			          }
+			        },
+			        "invoices_2.invoice_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "invoices_2.invoice_date.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2.invoice_date"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.invoice_date.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "invoice_dates_have_invoice_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "payments_2_has_invoices_2": {
+			      "Binding": {
+			        "ConceptualEntity": "payments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "payments_2": {
+			          "Target": {
+			            "Entity": "payments_2"
+			          }
+			        },
+			        "invoices_2": {
+			          "Target": {
+			            "Entity": "invoices_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "payments_2"
+			            },
+			            "Object": {
+			              "Role": "invoices_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "payments_2_have_invoices_2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2"
+			            },
+			            "Object": {
+			              "Role": "payments_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "invoices_2_have_payments_2"
+			        }
+			      ]
+			    },
+			    "payments_2_has_payment": {
+			      "Binding": {
+			        "ConceptualEntity": "payments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "payments_2": {
+			          "Target": {
+			            "Entity": "payments_2"
+			          }
+			        },
+			        "payment": {
+			          "Target": {
+			            "Entity": "payment"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "payments_2"
+			            },
+			            "Object": {
+			              "Role": "payment"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "payments_2_have_payments"
+			        }
+			      ]
+			    },
+			    "invoices_2_has_customers_2": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2": {
+			          "Target": {
+			            "Entity": "invoices_2"
+			          }
+			        },
+			        "customers_2": {
+			          "Target": {
+			            "Entity": "customers_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2"
+			            },
+			            "Object": {
+			              "Role": "customers_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "invoices_2_have_customers_2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "customers_2"
+			            },
+			            "Object": {
+			              "Role": "invoices_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "customers_2_have_invoices_2"
+			        }
+			      ]
+			    },
+			    "payments_2_has_reference_no": {
+			      "Binding": {
+			        "ConceptualEntity": "payments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "payments_2": {
+			          "Target": {
+			            "Entity": "payments_2"
+			          }
+			        },
+			        "payments_2.reference_no": {
+			          "Target": {
+			            "Entity": "payments_2.reference_no"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "payments_2"
+			            },
+			            "Object": {
+			              "Role": "payments_2.reference_no"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "payments_2_have_reference_noes"
+			        }
+			      ]
+			    },
+			    "payments_2_has_payment_method": {
+			      "Binding": {
+			        "ConceptualEntity": "payments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "payments_2": {
+			          "Target": {
+			            "Entity": "payments_2"
+			          }
+			        },
+			        "payments_2.payment_method": {
+			          "Target": {
+			            "Entity": "payments_2.payment_method"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "payments_2"
+			            },
+			            "Object": {
+			              "Role": "payments_2.payment_method"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "payments_2_have_payment_methods"
+			        }
+			      ]
+			    },
+			    "payments_2_has_PaymentAmount_KSh": {
+			      "Binding": {
+			        "ConceptualEntity": "payments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "payments_2": {
+			          "Target": {
+			            "Entity": "payments_2"
+			          }
+			        },
+			        "payments_2.PaymentAmount_KSh": {
+			          "Target": {
+			            "Entity": "payments_2.PaymentAmount_KSh"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "payments_2"
+			            },
+			            "Object": {
+			              "Role": "payments_2.PaymentAmount_KSh"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "payments_2_have_PaymentAmount_KSh"
+			        }
+			      ]
+			    },
+			    "payments_2_has_payment_date": {
+			      "Binding": {
+			        "ConceptualEntity": "payments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "payments_2": {
+			          "Target": {
+			            "Entity": "payments_2"
+			          }
+			        },
+			        "payments_2.payment_date": {
+			          "Target": {
+			            "Entity": "payments_2.payment_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "payments_2"
+			            },
+			            "Object": {
+			              "Role": "payments_2.payment_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "payments_2_have_payment_dates"
+			        }
+			      ]
+			    },
+			    "payments_2_has_payment_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "payments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "payments_2": {
+			          "Target": {
+			            "Entity": "payments_2"
+			          }
+			        },
+			        "payments_2.payment_ID": {
+			          "Target": {
+			            "Entity": "payments_2.payment_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "payments_2"
+			            },
+			            "Object": {
+			              "Role": "payments_2.payment_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "payments_2_have_payment_ID"
+			        }
+			      ]
+			    },
+			    "payments_2_has_invoices_2_collection_rate": {
+			      "Binding": {
+			        "ConceptualEntity": "payments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "payments_2": {
+			          "Target": {
+			            "Entity": "payments_2"
+			          }
+			        },
+			        "invoices_2.collection_rate": {
+			          "Target": {
+			            "Entity": "invoices_2.collection_rate"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "payments_2"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.collection_rate"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "payments_2_have_collection_rate"
+			        }
+			      ]
+			    },
+			    "invoices_2_has_collection_rate": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2": {
+			          "Target": {
+			            "Entity": "invoices_2"
+			          }
+			        },
+			        "invoices_2.collection_rate": {
+			          "Target": {
+			            "Entity": "invoices_2.collection_rate"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.collection_rate"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "invoices_2_have_collection_rate"
+			        }
+			      ]
+			    },
+			    "payments_2_has_invoices_2_outstanding_receivables": {
+			      "Binding": {
+			        "ConceptualEntity": "payments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "payments_2": {
+			          "Target": {
+			            "Entity": "payments_2"
+			          }
+			        },
+			        "invoices_2.outstanding_receivables": {
+			          "Target": {
+			            "Entity": "invoices_2.outstanding_receivables"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "payments_2"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.outstanding_receivables"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "payments_2_have_outstanding_receivables"
+			        }
+			      ]
+			    },
+			    "invoices_2_has_outstanding_receivables": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2": {
+			          "Target": {
+			            "Entity": "invoices_2"
+			          }
+			        },
+			        "invoices_2.outstanding_receivables": {
+			          "Target": {
+			            "Entity": "invoices_2.outstanding_receivables"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.outstanding_receivables"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "invoices_2_have_outstanding_receivables"
+			        }
+			      ]
+			    },
+			    "payments_2_has_invoices_2_total_payments_received": {
+			      "Binding": {
+			        "ConceptualEntity": "payments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "payments_2": {
+			          "Target": {
+			            "Entity": "payments_2"
+			          }
+			        },
+			        "invoices_2.total_payments_received": {
+			          "Target": {
+			            "Entity": "invoices_2.total_payments_received"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "payments_2"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.total_payments_received"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "payments_2_have_total_payments_received"
+			        }
+			      ]
+			    },
+			    "invoices_2_has_total_invoiced": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2": {
+			          "Target": {
+			            "Entity": "invoices_2"
+			          }
+			        },
+			        "invoices_2.total_invoiced": {
+			          "Target": {
+			            "Entity": "invoices_2.total_invoiced"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.total_invoiced"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "invoices_2_have_total_invoiced"
+			        }
+			      ]
+			    },
+			    "invoices_2_has_aging_bucket_sort": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2": {
+			          "Target": {
+			            "Entity": "invoices_2"
+			          }
+			        },
+			        "invoices_2.aging_bucket_sort": {
+			          "Target": {
+			            "Entity": "invoices_2.aging_bucket_sort"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.aging_bucket_sort"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "invoices_2_have_aging_bucket_sorts"
+			        }
+			      ]
+			    },
+			    "invoices_2_has_aging_bucket": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2": {
+			          "Target": {
+			            "Entity": "invoices_2"
+			          }
+			        },
+			        "invoices_2.aging_bucket": {
+			          "Target": {
+			            "Entity": "invoices_2.aging_bucket"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.aging_bucket"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "invoices_2_have_aging_buckets"
+			        }
+			      ]
+			    },
+			    "invoices_2_has_day_past_due1": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2": {
+			          "Target": {
+			            "Entity": "invoices_2"
+			          }
+			        },
+			        "invoices_2.day_past_due1": {
+			          "Target": {
+			            "Entity": "invoices_2.day_past_due1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.day_past_due1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "invoices_2_have_day_past_due"
+			        }
+			      ]
+			    },
+			    "invoices_2_has_day_past_due": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2": {
+			          "Target": {
+			            "Entity": "invoices_2"
+			          }
+			        },
+			        "invoices_2.day_past_due": {
+			          "Target": {
+			            "Entity": "invoices_2.day_past_due"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.day_past_due"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "invoices_2_have_day_past_due1"
+			        }
+			      ]
+			    },
+			    "invoices_2_has_payment_status": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2": {
+			          "Target": {
+			            "Entity": "invoices_2"
+			          }
+			        },
+			        "invoices_2.payment_status": {
+			          "Target": {
+			            "Entity": "invoices_2.payment_status"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.payment_status"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "invoices_2_have_payment_statuses"
+			        }
+			      ]
+			    },
+			    "invoices_2_has_OutstandingBalance_KSh": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2": {
+			          "Target": {
+			            "Entity": "invoices_2"
+			          }
+			        },
+			        "invoices_2.OutstandingBalance_KSh": {
+			          "Target": {
+			            "Entity": "invoices_2.OutstandingBalance_KSh"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.OutstandingBalance_KSh"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "invoices_2_have_OutstandingBalance_KSh"
+			        }
+			      ]
+			    },
+			    "invoices_2_has_PaymentsReceived_KSh": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2": {
+			          "Target": {
+			            "Entity": "invoices_2"
+			          }
+			        },
+			        "invoices_2.PaymentsReceived_KSh": {
+			          "Target": {
+			            "Entity": "invoices_2.PaymentsReceived_KSh"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.PaymentsReceived_KSh"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "invoices_2_have_PaymentsReceived_KSh"
+			        }
+			      ]
+			    },
+			    "invoices_2_has_description": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2": {
+			          "Target": {
+			            "Entity": "invoices_2"
+			          }
+			        },
+			        "invoices_2.description": {
+			          "Target": {
+			            "Entity": "invoices_2.description"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.description"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "invoices_2_have_descriptions"
+			        }
+			      ]
+			    },
+			    "invoices_2_has_InvoiceAmount_KSh": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2": {
+			          "Target": {
+			            "Entity": "invoices_2"
+			          }
+			        },
+			        "invoices_2.InvoiceAmount_KSh": {
+			          "Target": {
+			            "Entity": "invoices_2.InvoiceAmount_KSh"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.InvoiceAmount_KSh"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "invoices_2_have_InvoiceAmount_KSh"
+			        }
+			      ]
+			    },
+			    "invoices_2_has_due_date": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2": {
+			          "Target": {
+			            "Entity": "invoices_2"
+			          }
+			        },
+			        "invoices_2.due_date": {
+			          "Target": {
+			            "Entity": "invoices_2.due_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.due_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "invoices_2_have_due_date"
+			        }
+			      ]
+			    },
+			    "invoices_2_has_invoice_date": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2": {
+			          "Target": {
+			            "Entity": "invoices_2"
+			          }
+			        },
+			        "invoices_2.invoice_date": {
+			          "Target": {
+			            "Entity": "invoices_2.invoice_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.invoice_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "invoices_2_have_invoice_dates"
+			        }
+			      ]
+			    },
+			    "invoices_2_has_invoice_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2": {
+			          "Target": {
+			            "Entity": "invoices_2"
+			          }
+			        },
+			        "invoices_2.invoice_ID": {
+			          "Target": {
+			            "Entity": "invoices_2.invoice_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "invoices_2"
+			            },
+			            "Object": {
+			              "Role": "invoices_2.invoice_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "invoices_2_have_invoice_ID"
+			        }
+			      ]
+			    },
+			    "customers_2_has_status": {
+			      "Binding": {
+			        "ConceptualEntity": "customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "customers_2": {
+			          "Target": {
+			            "Entity": "customers_2"
+			          }
+			        },
+			        "customers_2.status": {
+			          "Target": {
+			            "Entity": "customers_2.status"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "customers_2"
+			            },
+			            "Object": {
+			              "Role": "customers_2.status"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "customers_2_have_statuses"
+			        }
+			      ]
+			    },
+			    "customers_2_has_phone": {
+			      "Binding": {
+			        "ConceptualEntity": "customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "customers_2": {
+			          "Target": {
+			            "Entity": "customers_2"
+			          }
+			        },
+			        "customers_2.phone": {
+			          "Target": {
+			            "Entity": "customers_2.phone"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "customers_2"
+			            },
+			            "Object": {
+			              "Role": "customers_2.phone"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "customers_2_have_phones"
+			        }
+			      ]
+			    },
+			    "customers_2_has_email": {
+			      "Binding": {
+			        "ConceptualEntity": "customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "customers_2": {
+			          "Target": {
+			            "Entity": "customers_2"
+			          }
+			        },
+			        "customers_2.email": {
+			          "Target": {
+			            "Entity": "customers_2.email"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "customers_2"
+			            },
+			            "Object": {
+			              "Role": "customers_2.email"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "customers_2_have_emails"
+			        }
+			      ]
+			    },
+			    "customers_2_has_contact_person": {
+			      "Binding": {
+			        "ConceptualEntity": "customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "customers_2": {
+			          "Target": {
+			            "Entity": "customers_2"
+			          }
+			        },
+			        "customers_2.contact_person": {
+			          "Target": {
+			            "Entity": "customers_2.contact_person"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "customers_2"
+			            },
+			            "Object": {
+			              "Role": "customers_2.contact_person"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "customers_2_have_contact_people"
+			        }
+			      ]
+			    },
+			    "customers_2_has_county": {
+			      "Binding": {
+			        "ConceptualEntity": "customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "customers_2": {
+			          "Target": {
+			            "Entity": "customers_2"
+			          }
+			        },
+			        "customers_2.county": {
+			          "Target": {
+			            "Entity": "customers_2.county"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "customers_2"
+			            },
+			            "Object": {
+			              "Role": "customers_2.county"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "customers_2_have_counties"
+			        }
+			      ]
+			    },
+			    "customers_2_has_city": {
+			      "Binding": {
+			        "ConceptualEntity": "customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "customers_2": {
+			          "Target": {
+			            "Entity": "customers_2"
+			          }
+			        },
+			        "customers_2.city": {
+			          "Target": {
+			            "Entity": "customers_2.city"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "customers_2"
+			            },
+			            "Object": {
+			              "Role": "customers_2.city"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "customers_2_have_cities"
+			        }
+			      ]
+			    },
+			    "customers_2_has_customer_type": {
+			      "Binding": {
+			        "ConceptualEntity": "customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "customers_2": {
+			          "Target": {
+			            "Entity": "customers_2"
+			          }
+			        },
+			        "customers_2.customer_type": {
+			          "Target": {
+			            "Entity": "customers_2.customer_type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "customers_2"
+			            },
+			            "Object": {
+			              "Role": "customers_2.customer_type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "customers_2_have_customer_types"
+			        }
+			      ]
+			    },
+			    "customers_2_has_customer_name": {
+			      "Binding": {
+			        "ConceptualEntity": "customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "customers_2": {
+			          "Target": {
+			            "Entity": "customers_2"
+			          }
+			        },
+			        "customers_2.customer_name": {
+			          "Target": {
+			            "Entity": "customers_2.customer_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "customers_2"
+			            },
+			            "Object": {
+			              "Role": "customers_2.customer_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "customers_2_have_customer_names"
+			        }
+			      ]
+			    },
+			    "customers_2_has_customer_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "customers_2": {
+			          "Target": {
+			            "Entity": "customers_2"
+			          }
+			        },
+			        "customers_2.customer_ID": {
+			          "Target": {
+			            "Entity": "customers_2.customer_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "customers_2"
+			            },
+			            "Object": {
+			              "Role": "customers_2.customer_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "customers_2_have_customer_ID"
+			        }
+			      ]
+			    },
+			    "customers_2_in_county": {
+			      "Binding": {
+			        "ConceptualEntity": "customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "customers_2": {
+			          "Target": {
+			            "Entity": "customers_2"
+			          }
+			        },
+			        "customers_2.county": {
+			          "Target": {
+			            "Entity": "customers_2.county"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "customers_2.county"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "customers_2"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "customers_2.county"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "customers_2_are_in_counties"
+			        }
+			      ]
+			    },
+			    "customers_2_in_city": {
+			      "Binding": {
+			        "ConceptualEntity": "customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "customers_2": {
+			          "Target": {
+			            "Entity": "customers_2"
+			          }
+			        },
+			        "customers_2.city": {
+			          "Target": {
+			            "Entity": "customers_2.city"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "customers_2.city"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "customers_2"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "customers_2.city"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "customers_2_are_in_cities"
+			        }
+			      ]
+			    },
+			    "invoices_2_is_invoiced_on_invoice_date": {
+			      "Binding": {
+			        "ConceptualEntity": "invoices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "invoices_2": {
+			          "Target": {
+			            "Entity": "invoices_2"
+			          }
+			        },
+			        "invoices_2.invoice_date": {
+			          "Target": {
+			            "Entity": "invoices_2.invoice_date"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "invoices_2.invoice_date"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "invoice": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "invoices_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "invoices_2_are_invoiced_on_invoice_dates"
+			        }
+			      ]
+			    },
+			    "payments_2_payment_date_date_hierarchy_has_payments_2_payment_date_day": {
+			      "Binding": {
+			        "ConceptualEntity": "payments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "payments_2.payment_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "payments_2.payment_date.date_hierarchy"
+			          }
+			        },
+			        "payments_2.payment_date.day": {
+			          "Target": {
+			            "Entity": "payments_2.payment_date.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "payments_2.payment_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "payments_2.payment_date.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "payment_date_hierarchies_have_payment_days"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+
